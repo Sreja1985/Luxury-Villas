@@ -7,7 +7,7 @@
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
@@ -40,7 +40,7 @@
 
 .villa__image{
     position: relative;
-    height: 250px;
+    height: 300px;
     border-radius: 7px;
     background-color: #3a3a3a;
     opacity: 1;
