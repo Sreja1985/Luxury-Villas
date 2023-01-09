@@ -1,5 +1,5 @@
 .villas{
-    margin: 4rem 6rem;
+    margin: 5rem 8rem;
     color: #3a3a3a;
 }
 
@@ -40,7 +40,7 @@
 
 .villa__image{
     position: relative;
-    height: 250px;
+    height: 300px;
     border-radius: 7px;
     background-color: #3a3a3a;
     opacity: 1;
