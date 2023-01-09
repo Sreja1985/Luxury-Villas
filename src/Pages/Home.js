@@ -4,7 +4,6 @@ import Content from '../Components/Content';
 import Location from '../Components/Location';
 import HomeImg from '../Assets/HomeHero.avif';
 
-
 function Home() {
   return (
     <>

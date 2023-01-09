@@ -1,5 +1,5 @@
 .villas{
-    margin: 5rem 8rem;
+    margin: 4rem 6rem;
     color: #3a3a3a;
 }
 
@@ -7,7 +7,7 @@
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
@@ -40,7 +40,7 @@
 
 .villa__image{
     position: relative;
-    height: 300px;
+    height: 250px;
     border-radius: 7px;
     background-color: #3a3a3a;
     opacity: 1;
@@ -73,6 +73,11 @@
     font-size: 1.2rem;
     color: #FFF; 
 }
+
+.details__price:hover{
+       
+}
+
 
 
 @media screen and (max-width:850px) {

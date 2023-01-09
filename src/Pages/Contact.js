@@ -3,8 +3,6 @@ import Hero from '../Components/Hero';
 import ContactImg from '../Assets/ContactHero.avif';
 import ContactForm from '../Components/ContactForm';
 
-
-
 function Contact() {
   return (
     <>
@@ -16,7 +14,7 @@ function Contact() {
         text= 'Contac Us for more information'      
       />
 
-      <ContactForm />      
+      <ContactForm />
     </>
   )
 }
