@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import {Link} from 'react-router-dom';
+
 
 function Footer() {
   return (
@@ -30,25 +30,25 @@ function Footer() {
         <section className='middle'>
             <div>
                 <h4>Accomodation</h4>
-                <Link className='links' to='/'>Beach Front</Link>
-                <Link className='links' to='/'>Palm Garden</Link>
-                <Link className='links' to='/'>River Beach</Link>
-                <Link className='links' to='/'>Spirou</Link>
-                <Link className='links' to='/'>Treasure Cove</Link>
+                <a className='links' href='/'>Beach Front</a>
+                <a className='links' href='/'>Palm Garden</a>
+                <a className='links' href='/'>River Beach</a>
+                <a className='links' href='/'>Spirou</a>
+                <a className='links' href='/'>Treasure Cove</a>
             </div>
 
             <div>
                 <h4>The Experience</h4>
-                <Link className='links' to='/experience'>Water Sport</Link>
-                <Link className='links' to='/experience'>Food & Wine</Link>
-                <Link className='links' to='/experience'>Hikeing</Link>
-                <Link className='links' to='/experience'>National Parks</Link>
+                <a className='links' href='/experience'>Water Sport</a>
+                <a className='links' href='/experience'>Food & Wine</a>
+                <a className='links' href='/experience'>Hikeing</a>
+                <a className='links' href='/experience'>National Parks</a>
             </div>
 
             <div>
                 <h4>Terms & Conditions</h4>
-                <Link className='links' to='/'>Terms & Conditions</Link>
-                <Link className='links' to='/'>Terms of Use - Data Policy</Link>                
+                <a className='links' href='/'>Terms & Conditions</a>
+                <a className='links' href='/'>Terms of Use - Data Policy</a>                
             </div>
 
             <div>

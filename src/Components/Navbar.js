@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import { MenuItems } from './MenuItems';
 import {useState} from 'react';
 import './Navbar.css';
@@ -23,13 +22,13 @@ function Navbar() {
             {MenuItems.map((item, index) => {
                 return (
                     <li key={index}>
-                        <Link className={item.cName} to={item.url} onClick={() => 
+                        <a className={item.cName} href={item.url} onClick={() => 
                             {
                                 setClicked(!clicked);
                             }}
                         >
                            <i className={item.icon} /> {item.title}
-                        </Link>
+                        </a>
                     </li>
                 )
             })}

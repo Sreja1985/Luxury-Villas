@@ -3,6 +3,7 @@ import Hero from '../Components/Hero';
 import VillaImg from '../Assets/VillaHero.avif';
 import VillaDataList from '../Components/VillaDataList';
 
+
 function Villas() {
   return (
     <>

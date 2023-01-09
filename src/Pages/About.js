@@ -6,6 +6,7 @@ import AboutImg from '../Assets/AboutHero.avif';
 
 
 
+
 function About() {
   return (
     <>
@@ -37,7 +38,6 @@ function About() {
       />
 
       <Location />
-
     </>
   )
 }
