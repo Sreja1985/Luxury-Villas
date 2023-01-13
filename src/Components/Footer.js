@@ -11,16 +11,16 @@ function Footer() {
                 <p>Choose Your destination</p>
             </div>
             <div>
-                <a href='www.facebook.com' target='_blank'>
+                <a href='/' target='_blank'>
                     <i className='fa-brands fa-facebook-square' />
                 </a>
-                <a href='www.twitter.com' target='_blank'>
+                <a href='/' target='_blank'>
                     <i className='fa-brands fa-twitter-square' />
                 </a>
-                <a href='www.youtube.com' target='_blank'>
+                <a href='/' target='_blank'>
                     <i className='fa-brands fa-youtube-square' />
                 </a>
-                <a href='www.instagram.com' target='_blank'>
+                <a href='/' target='_blank'>
                     <i className='fa-brands fa-instagram-square' />
                 </a>
 
